@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  ;
 }
 
 .App-logo {
@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+.topBar {
+  display: flex;
+  background-color: #9fb7e7;
+  margin-bottom: 30px;
+  border-bottom: solid 3px blue;
+
+}
+
+.linkContainer {
+position: relative;
+top: 20px;
+}
+
+.navLogo {
+  
+  height: 70px;
+  margin-left: 30px;
+  margin-right: 150px;
+  
+  
+}
+
+.firstLink {
+  margin-right: 100px;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(97, 97, 236);
+  padding: 10px;
+  border-radius: 25%;
+  border: solid 2px blue;
+}
+
+.secondLink {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(97, 97, 236);
+  padding: 10px;
+  border-radius: 25%;
+  border: solid 2px blue;
+}
+
+
